@@ -54,18 +54,18 @@ li
 	list-style: lower-roman;
 }
 
-a[href="http://www.google.com"]
-{
-	color: blue;
-}
-
 a:link
 {
 	color: white;
-	font-weight: bold;
+	font-style: italic;
 }
 
 a:visited
 {
 	color: black;
+}
+
+a[href="http://www.google.com"]
+{
+	color: blue;
 }
