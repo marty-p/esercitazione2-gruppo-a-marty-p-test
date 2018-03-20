@@ -49,7 +49,7 @@ input:focus
 	color: black;
 }
 
-li ol
+li > ol
 {
 	list-style-type: upper-roman;
 }
