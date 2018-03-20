@@ -10,29 +10,62 @@ and open the template in the editor.
 
 body
 {
-	font-size: 12px;
-	color: blueviolet;
+	font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
+	color: #ffffff;
+	background-color: #333333;
 }
 
-a:hover, a:visited, a:link, a:active
+h1,h2,h3
 {
-	 color: green;
+	color: #33ff33;
 }
 
-nav, footer
+#maintitle
+{
+	color: white;
+}
+
+input
+{
+	background-color: orange;
+}
+
+input:focus
+{
+	background-color: gray;
+	color: red;
+}
+
+.headerrow
+{
+	background-color: #33ff33;
+	font-weight: bold;
+	color: black;
+}
+
+.evenrow
+{
+	background-color: orange;
+	color: black;
+}
+
+li
+{
+	list-style: lower-roman;
+}
+
+a[href="http://www.google.com"]
 {
 	color: blue;
-	font-size: 20px;
 }
 
-#nome
+a:link
 {
-	font-size: 22px;
-	color: red;
+	color: white;
+	font-weight: bold;
 }
 
-.classname
+a:visited
 {
-	font-family: sans-serif;
-	color: red;
+	color: black;
 }
